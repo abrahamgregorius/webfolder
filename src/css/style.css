@@ -1,0 +1,179 @@
+:root {
+    --dark-color: #000;
+    --light-color: #fff;
+    --light-color-text: rgb(249, 249, 249);
+    --body-color: rgb(31, 35, 148);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, var(--body-color), rgb(94, 70, 204));
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.container-home {
+    width: min(100%, 1200px);
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    gap: 1rem;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.home-section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+    transition: .4s;
+
+}
+
+.btn:hover {
+    border: 1px solid var(--light-color);
+    background-color: var(--body-color);
+    color: var(--light-color-text)
+}
+
+.btn-outlined {
+    padding: 1rem 2rem;
+    border: 1px solid var(--light-color);
+    border-radius: .5rem;
+    transition: .4s;
+}
+
+.btn-outlined:hover {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.btn-sm {
+    padding: .5rem 1rem;
+}
+
+ .category tr th, .category tr td{
+    border: 1px solid black;
+    padding: 2px;
+}
+
+table .recipe {
+    width: 100%;
+    padding: 1rem;
+    overflow-x: scroll;
+}
+
+.recipe tr th, .recipe tr td {
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.form-control input {
+    border-radius: .3rem;
+    padding: 2px 4px;
+    color: black;
+}
+
+.form-control select, .form-control option {
+    border-radius: .3rem;
+    padding: 2px 4px;
+    color: black;
+}
+
+.thumbnail {
+    color: white;
+}
+
+.heading {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    animation: fadeIn ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.heading h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+}
+
+.heading h3 {
+    font-size: 1rem;
+}
+
+.heading b {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+@media (min-width: 768px) {
+    body {
+        /* background: red; */
+    }
+}
