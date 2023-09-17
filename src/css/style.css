@@ -140,6 +140,7 @@ table .recipe {
 
 .heading {
     font-family: monospace;
+    text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1rem;

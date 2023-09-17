@@ -9,6 +9,9 @@ function Projects() {
         <>
             <Navbar></Navbar>
             <Section>
+                <div className="container container-home">
+                    <h1>here are my projects</h1>
+                </div>
             </Section>
         </>
     )

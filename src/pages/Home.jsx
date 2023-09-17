@@ -14,6 +14,7 @@ function Home() {
                 <div className="container container-home">
                     <div className="heading">
                         <h1>Pax Vobis</h1>
+                        {/* <img src="" alt="" /> */}
                         <h3>Hello there! I am <b>Abraham Gregorius</b>, currently a student of software engineering at SMKN 10 Jakarta. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>. I have a strong commitment to continuous learning, and I approach projects with professionalism, emphasizing teamwork and open communication.</h3>
                         <h3>I'm eager to connect with fellow professionals, learn from experienced peers, and collaborate on impactful digital ventures.</h3>
                     </div>

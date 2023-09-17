@@ -23,12 +23,10 @@ function Navbar() {
                 <div className="toggle-nav" id='toggle-nav' onClick={toggleNav}>
                     <span>&equiv;</span>
                 </div>
-                <div className={`navbar-left`} id="navbar-left">
-                    {/* Ternary operator for showing navbar ==  ${navActive ? " show" : ""} */}
+                <div className={`navbar-left ${navActive ? " show" : ""}`} id="navbar-left">
                     <ul>
                         <li><NavLink to={'/'}>Home</NavLink></li>
-                        {/* <li><NavLink to={'/projects'}>Projects</NavLink></li>
-                        <li><NavLink to={'/contact'}>Contact</NavLink></li> */}
+                        <li><NavLink to={'/project'}>Projects</NavLink></li>
                     </ul>
                 </div>
             </div>
