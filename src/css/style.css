@@ -28,16 +28,13 @@ header .container {
 .container {
     width: min(100%, 1200px);
     margin: 0 auto;
-    padding: 0 1rem;
-}
+}   
 
 .container-home {
-    width: min(100%, 1200px);
-    margin: 0 auto;
-    padding: 0 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 75px 0;
     flex-direction: column;
     gap: 1rem;
 }
@@ -168,7 +165,7 @@ table .recipe {
 }
 
 .heading h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     line-height: 5rem;
 }
 
@@ -268,5 +265,9 @@ table .recipe {
 @media (min-width: 768px) {
     .heading img {
         width: 12.3%;
+    }
+
+    .heading h1 {
+        font-size: 5rem;
     }
 }
