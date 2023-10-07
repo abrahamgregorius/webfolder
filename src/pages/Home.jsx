@@ -3,6 +3,8 @@ import '../index.css'
 import '../css/style.css'
 import Section from '../components/Section'
 import Navbar from '../components/Navbar'
+import profile from '../assets/profiles-3.webp'
+import profile1 from '../assets/profiles-3.png'
 
 
 function Home() {
@@ -16,7 +18,7 @@ function Home() {
                         {/* <img src="https://i.ibb.co/18VfdS7/profiles.png" alt="" /> */}
                         {/* <img src="https://i.ibb.co/y4mMwnn/profiles-1.png" alt="" /> */}
                         {/* <img src="https://i.ibb.co/5s9GSK9/profiles-2.png" alt="" /> */}
-                        <img src="https://i.ibb.co/xJg2MZz/profiles-3.png" alt="" />
+                    <img src={profile1} alt="" />
                         <h1>Pax Vobis</h1>
                         <h3>Hello there! I am <b>Abraham Gregorius</b>, currently a student of software engineering at SMKN 10 Jakarta. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>. I have a strong commitment to continuous learning, and I approach projects with professionalism, emphasizing teamwork and open communication.</h3>
                         <h3>I'm eager to connect with fellow professionals, learn from experienced peers, and collaborate on impactful digital ventures.</h3>

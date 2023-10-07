@@ -14,6 +14,7 @@ import gmailbotimg from '../assets/gmailbot.png'
 import shopeeimg from '../assets/shopee.png'
 import othelloimg from '../assets/othello.png'
 import whautoimg from '../assets/whauto.png'
+import kryptonimimg from '../assets/kryptonim.png'
 import Footer from '../components/Footer';
 
 
@@ -25,6 +26,7 @@ function Projects() {
             <Section>
                 <div className="container container-project">
                     <div className="card-section flex-wrap ">
+                        <Card title="Kryptonim" description="Modern and minimalistic landing page" src={kryptonimimg}></Card>
                         <Card title="Laisindo" description="Laisindo Autoparts company profile website" src={laisinimg}></Card>
                         <Card title="Mauvin" description="Theme for a Wordpress-based website " src={tenizenimg}></Card>
                         <Card title="CSD" description="Customer Service Administrator Dashboard" src={csdimg}></Card>
