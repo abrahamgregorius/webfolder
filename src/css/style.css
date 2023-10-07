@@ -199,6 +199,11 @@ table .recipe {
     padding: 5px;
     border-radius: 10px;
     font-family: monospace;
+    transition: .4s;
+}
+
+.card:hover {
+    box-shadow: 0 0 18px black;
 }
 
 .card img {

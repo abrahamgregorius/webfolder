@@ -2,15 +2,17 @@ import React from "react"
 import '../assets/laisin.png'
 
 
-function Card({title, description, src}) {
+function Card({title, description, src, link}) {
     return(
         <>
             <div className="card shadow-xl">
+            <a target="_blank" href={link}>
                 <img width={280} src={src} alt="" />
                 <div className="card-body">
                     <div className="card-title"><h1>{title}</h1></div>
                     <div className="card-description">{description}</div>                            
                 </div>
+            </a>
             </div>
         </>
     )
