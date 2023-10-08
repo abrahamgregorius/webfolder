@@ -170,7 +170,7 @@ table .recipe {
 }
 
 .heading h3 {
-    font-size: 1rem;
+    font-size: .85rem;
 }
 
 .heading b {
@@ -274,6 +274,10 @@ table .recipe {
 
     .heading h1 {
         font-size: 5rem;
+    }
+
+    .heading h3 {
+        font-size: 1rem;
     }
 
     .hero-title {
