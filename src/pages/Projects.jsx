@@ -28,7 +28,7 @@ function Projects() {
                     <div className="card-section flex-wrap ">
                         <Card title="Kryptonim" link="https://github.com/abrahamgregorius/kryptonim" description="Modern and minimalistic landing page" src={kryptonimimg}></Card>
                         <Card title="Laisindo" link="https://laisindo.com" description="Laisindo Autoparts company profile website" src={laisinimg}></Card>
-                        <Card title="Mauvin" description="Theme for a Wordpress-based website " src={tenizenimg}></Card>
+                        <Card title="Mauvin" link="https://github.com/abrahamgregorius/mauvin" description="Theme for a Wordpress-based website " src={tenizenimg}></Card>
                         <Card title="CSD" description="Customer Service Administrator Dashboard" src={csdimg}></Card>
                         <Card title="ClickCart" description="Template for an online shop website" src={reactshopimg}></Card>
                         <Card title="ExpenTrack" link="https://github.com/abrahamgregorius/expentrack" description="Website for tracking personal expenses" src={expentrackimg}></Card>
