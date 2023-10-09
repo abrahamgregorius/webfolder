@@ -153,9 +153,6 @@ table .recipe {
     align-items: center;
     flex-direction: column;
     gap: 1rem;
-    animation: fadeIn ease 2s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 .heading h1 {
