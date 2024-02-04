@@ -5,7 +5,7 @@ import '../assets/laisin.png'
 function Card({title, description, src, link}) {
     return(
         <>
-            <div className="card shadow-xl">
+            <div className="card">
             <a target="_blank" href={link}>
                 <img width={280} src={src} alt="" />
                 <div className="card-body">
