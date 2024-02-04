@@ -180,11 +180,11 @@ table .recipe {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .card {
-    width: 280px;
+    width: 320px;
     height: 325px;
     /* border: 2px solid white; */
     padding: 5px;
@@ -194,7 +194,7 @@ table .recipe {
 }
 
 .card img {
-    border-radius: 10px;
+    border-radius: .4rem;
 }
 
 .card-body {

@@ -26,7 +26,8 @@ function Navbar() {
                 <div className={`navbar-left ${navActive ? " show" : ""}`} id="navbar-left">
                     <ul>
                         <li><NavLink to={'/'}>Home</NavLink></li>
-                        <li><NavLink to={'/project'}>Projects</NavLink></li>
+                        {/* <li><NavLink to={'/project'}>Projects</NavLink></li>
+                        <li><NavLink to={'/achievements'}>Achievements</NavLink></li> */}
                     </ul>
                 </div>
             </div>
