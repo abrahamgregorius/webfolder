@@ -8,14 +8,14 @@ import Hero from '../components/Hero'
 
 function Achievements() {
     return(
-        <>
+        <div className='text-white container mx-auto my-0 p-4 w-full max-w-[840px]'>
             <Navbar></Navbar>
             <Hero title={"Achievements"} description={"some of my accolades"}></Hero>
             <Section className="content">
                 {/* <div>hello world</div> */}
             </Section>
             <Footer></Footer>
-        </>
+        </div>
     )
 }
 

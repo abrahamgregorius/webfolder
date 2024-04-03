@@ -20,27 +20,25 @@ import Footer from '../components/Footer';
 
 function Projects() {
     return(
-        <>
+        <div className='text-white container mx-auto my-0 p-4 w-full max-w-[840px]'>
             <Navbar></Navbar>
             <Hero title={"Projects"} description={"recent projects that i've been working for"}></Hero>
-            <Section>
-                <div className="container container-project">
-                    <div className="card-section flex-wrap ">
-                        <Card title="Kryptonim" link="https://github.com/abrahamgregorius/kryptonim" description="Modern and minimalistic landing page" src={kryptonimimg}></Card>
-                        <Card title="Laisindo" link="https://laisindo.com" description="Laisindo Autoparts company profile website" src={laisinimg}></Card>
-                        <Card title="Mauvin" link="https://github.com/abrahamgregorius/mauvin" description="Theme for a Wordpress-based website " src={tenizenimg}></Card>
-                        {/* <Card title="CSD" description="Customer Service Administrator Dashboard" src={csdimg}></Card> */}
-                        {/* <Card title="ClickCart" description="Template for an online shop website" src={reactshopimg}></Card> */}
-                        {/* <Card title="ExpenTrack" link="https://github.com/abrahamgregorius/expentrack" description="Website for tracking personal expenses" src={expentrackimg}></Card> */}
-                        <Card title="GmailBot" link="https://github.com/abrahamgregorius/gmailgenerator" description="A bot to generate Gmail accounts by using UIAutomator" src={gmailbotimg}></Card>
-                        {/* <Card title="ShopeeFSBot" description="Shopee Flash Sale autoclicker bot by using UIAutomator" src={shopeeimg}></Card> */}
-                        {/* <Card title="Othello Game" description="Result of LKSN client side module training" src={othelloimg}></Card> */}
-                        <Card title="WhatsAuto" link="https://github.com/abrahamgregorius/whatsappAutomation" description="Automating Whatsapp tasks and functions with a bot" src={whautoimg}></Card>
-                    </div>
+            <div className="container container-project">
+                <div className=" w-full mx-auto my-0 grid gap-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+                    <Card tech={"Vanilla"} title="Kryptonim" link="https://github.com/abrahamgregorius/kryptonim" description="Modern and minimalistic landing page" src={kryptonimimg}></Card>
+                    <Card tech={"Laravel"} title="Laisindo" link="https://laisindo.com" description="Laisindo Autoparts company profile website" src={laisinimg}></Card>
+                    <Card tech={"Wordpress"} title="Mauvin" link="https://github.com/abrahamgregorius/mauvin" description="Theme for a Wordpress-based website " src={tenizenimg}></Card>
+                    <Card tech={"Laravel"} title="CSD" description="Customer Service Administrator Dashboard" src={csdimg}></Card>
+                    <Card tech={"Wordpress"} title="ClickCart" description="Template for an online shop website" src={reactshopimg}></Card>
+                    <Card tech={"Laravel"} title="ExpenTrack" link="https://github.com/abrahamgregorius/expentrack" description="Website for tracking personal expenses" src={expentrackimg}></Card>
+                    <Card tech={"Python"} title="GmailBot" link="https://github.com/abrahamgregorius/gmailgenerator" description="A bot to generate Gmail accounts by using UIAutomator" src={gmailbotimg}></Card>
+                    <Card tech={"Python"} title="ShopeeFSBot" description="Shopee Flash Sale autoclicker bot by using UIAutomator" src={shopeeimg}></Card>
+                    <Card tech={"JavaScript"} title="Othello Game" description="Result of LKSN client side module training" src={othelloimg}></Card>
+                    <Card tech={"Python"} title="WhatsAuto" link="https://github.com/abrahamgregorius/whatsappAutomation" description="Automating Whatsapp tasks and functions with a bot" src={whautoimg}></Card>
                 </div>
-            </Section>
+            </div>
             <Footer></Footer>
-        </>
+        </div>
     )
 }
 

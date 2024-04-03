@@ -5,7 +5,7 @@ import '../css/style.css'
 import { useState } from 'react'
 
 function Navbar() {
-    const [navActive, setNavActive] = useState(false)
+    const [isNavbarClicked, setIsNavbarClicked] = useState(false)
     
     function toggleNav() {
         setNavActive(!navActive)
@@ -13,25 +13,22 @@ function Navbar() {
 
     return(
         <>
-        <header>
-            <div className='container'>
-                <div className='navbar-right'>
-                    <Link to={'/'}>
-                        <h1>abrahamgregorius</h1>
-                    </Link>
+        <div className="navbar flex justify-between items-center relative font-semibold">
+                <div className="nav-left">
+                    <Link to="/" className="font-black font-mono">abrahamgregorius</Link>
                 </div>
-                <div className="toggle-nav" id='toggle-nav' onClick={toggleNav}>
-                    <span>&equiv;</span>
+                <div className="nav-toggle min-[420px]:hidden flex gap-3">
+                    <span className="text-2xl" onClick={() => setIsNavbarClicked(!isNavbarClicked)}>&equiv;</span>
                 </div>
-                <div className={`navbar-left ${navActive ? " show" : ""}`} id="navbar-left">
-                    <ul>
-                        <li><NavLink to={'/'}>Home</NavLink></li>
-                        {/* <li><NavLink to={'/project'}>Projects</NavLink></li>
-                        <li><NavLink to={'/achievements'}>Achievements</NavLink></li> */}
-                    </ul>
+                <div className="nav-right max-[420px]:hidden flex gap-3">
+                    <NavLink className={"text-sm hover:underline transition"} to="/projects">projects</NavLink>
+                    <NavLink className={"text-sm hover:underline transition"} to="/achievements">achievements</NavLink>
                 </div>
             </div>
-        </header>
+            <div className={`nav-toggle-menu font-semibold border-b-2 pb-2 mt-2 w-full flex gap-2 px-4 justify-center flex-col min-[420px]:hidden ${isNavbarClicked ? "flex" : "hidden"}`}>
+                <NavLink className={"text-lg hover:text-slate-400 transition"} to="/projects">projects</NavLink>
+                <NavLink className={"text-lg hover:text-slate-400 transition"} to="/achievements">achievements</NavLink>
+            </div>
 
         </>
     )
