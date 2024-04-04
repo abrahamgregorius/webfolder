@@ -6,8 +6,8 @@ function Hero({title, description}) {
             <div className="hero-wrap">
                 <div className="container-project">
                     <div className="hero">
-                        <h1 className="hero-title">{title}</h1>
-                        <p className="hero-description transition md:text-lg text-md">{description}</p>
+                        <h1 className="hero-title font-mono">{title}</h1>
+                        <p className="hero-description font-mono transition md:text-lg text-md">{description}</p>
                     </div>
                 </div>
             </div>
