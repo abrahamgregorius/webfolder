@@ -9,7 +9,7 @@ function Card({title, description, src, link, tech}) {
             <div className="card border-white border rounded p-3">
                 <a target="_blank" href={link}>
                     <div className="project-head">
-                        <img className="h-[150px] w-full rounded" src={src} alt="" />
+                        <img className="h-[150px] w-full rounded object-top object-cover" src={src} alt="" />
                     </div>
                     <div className="project-body min-h-[130px] relative px-2 py-3 rounded-bl rounded-br">
                         <p className="font-bold text-xl mb-1">{title}</p>
