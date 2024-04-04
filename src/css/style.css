@@ -221,7 +221,7 @@ table .recipe {
 }
 
 .hero-title {
-    font-size: 55px;
+    font-size: 40px;
     font-family: monospace;
 }
 
@@ -230,7 +230,6 @@ table .recipe {
 }
 
 .footer {
-    
     width: 100%;
     padding: 50px 0;
     display: flex;
