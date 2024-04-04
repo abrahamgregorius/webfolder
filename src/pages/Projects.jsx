@@ -24,7 +24,7 @@ function Projects() {
             <Navbar></Navbar>
             <Hero title={"Projects"} description={"recent projects that i've been working for"}></Hero>
             <div className="container container-project">
-                <div className=" w-full mx-auto my-0 grid gap-4 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+                <div className=" w-full mx-auto my-0 grid gap-5 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
                     <Card tech={"Vanilla"} title="Kryptonim" link="https://github.com/abrahamgregorius/kryptonim" description="Modern and minimalistic landing page" src={kryptonimimg}></Card>
                     <Card tech={"Laravel"} title="Laisindo" link="https://laisindo.com" description="Laisindo Autoparts company profile website" src={laisinimg}></Card>
                     <Card tech={"Wordpress"} title="Mauvin" link="https://github.com/abrahamgregorius/mauvin" description="Theme for a Wordpress-based website " src={tenizenimg}></Card>
