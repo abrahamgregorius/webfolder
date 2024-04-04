@@ -7,7 +7,7 @@ function Hero({title, description}) {
                 <div className="container-project">
                     <div className="hero">
                         <h1 className="hero-title">{title}</h1>
-                        <p className="hero-description text-xl">{description}</p>
+                        <p className="hero-description transition md:text-lg text-md">{description}</p>
                     </div>
                 </div>
             </div>
