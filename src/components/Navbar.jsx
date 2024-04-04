@@ -25,9 +25,9 @@ function Navbar() {
                     <NavLink className={"text-sm hover:underline transition"} to="/achievements">achievements</NavLink>
                 </div>
             </div>
-            <div className={`nav-toggle-menu font-semibold border-b-2 pb-2 mt-2 w-full flex gap-2 px-4 justify-center flex-col min-[420px]:hidden ${isNavbarClicked ? "flex" : "hidden"}`}>
-                <NavLink className={"text-lg hover:text-slate-400 transition"} to="/projects">projects</NavLink>
-                <NavLink className={"text-lg hover:text-slate-400 transition"} to="/achievements">achievements</NavLink>
+            <div className={`nav-toggle-menu font-normal border-b mt-2 pb-2 mt-2 w-full flex gap-2 px-4 justify-center flex-col min-[420px]:hidden ${isNavbarClicked ? "flex" : "hidden"}`}>
+                <NavLink className={"text-md hover:text-slate-400 transition"} to="/projects">projects</NavLink>
+                <NavLink className={"text-md hover:text-slate-400 transition"} to="/achievements">achievements</NavLink>
             </div>
 
         </>

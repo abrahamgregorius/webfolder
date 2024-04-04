@@ -20,7 +20,7 @@ function Home() {
                         {/* <img src="https://i.ibb.co/5s9GSK9/profiles-2.png" alt="" /> */}
                     <img className='lg:w-[175px] sm:w-[200px] w-[175px]' src={profile1} alt="" />
                         <h1>Pax Vobis</h1>
-                        <h3>Hello there! I am <b>Abraham Gregorius</b>, currently a student of software engineering at SMKN 10 Jakarta. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>. I have a strong commitment to continuous learning, and I approach projects with professionalism, emphasizing teamwork and open communication.</h3>
+                        <h3>I am <b>Abraham Gregorius</b>, a CS student based in Jakarta, Indonesia. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>. I have a strong commitment to continuous learning, and I approach projects with professionalism, emphasizing teamwork and open communication.</h3>
                         <h3>I'm eager to connect with fellow professionals, learn from experienced peers, and collaborate on impactful digital ventures.</h3>
                     </div>
                     <div className="social">

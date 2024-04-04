@@ -6,8 +6,8 @@ function Hero({title, description}) {
             <div className="hero-wrap">
                 <div className="container-project">
                     <div className="hero">
-                        <h1 className="hero-title ">{title}</h1>
-                        <p className="hero-description">{description}</p>
+                        <h1 className="hero-title">{title}</h1>
+                        <p className="hero-description text-xl">{description}</p>
                     </div>
                 </div>
             </div>
