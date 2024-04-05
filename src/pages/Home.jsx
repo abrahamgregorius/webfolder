@@ -1,13 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../index.css'
 import '../css/style.css'
 import Section from '../components/Section'
 import Navbar from '../components/Navbar'
-import profile from '../assets/profiles-3.webp'
 import profile1 from '../assets/profiles-3.png'
-
+import { useState } from 'react'
+import BarLoader from 'react-spinners/BarLoader'
 
 function Home() {
+    const [loading, setLoading] = useState(true)
+
+    useEffect(() => {
+        const image = new Image();
+        image.onload = () => {
+            setLoading(false);
+        };
+        image.src = profile1;
+    }, []);
+
     return(
         <div className='text-white container mx-auto my-0 p-4 w-full max-w-[840px]'>
         <Navbar></Navbar>
@@ -15,10 +25,16 @@ function Home() {
             <Section>
                 <div className="container container-home">
                     <div className="heading">
-                        {/* <img src="https://i.ibb.co/18VfdS7/profiles.png" alt="" /> */}
-                        {/* <img src="https://i.ibb.co/y4mMwnn/profiles-1.png" alt="" /> */}
-                        {/* <img src="https://i.ibb.co/5s9GSK9/profiles-2.png" alt="" /> */}
-                    <img className='lg:w-[175px] sm:w-[200px] w-[175px]' src={profile1} alt="" />
+                    {
+                        loading ? (
+                            <div className="bg-white flex justify-center items-center lg:w-[175px] sm:w-[200px] w-[175px] lg:h-[175px] sm:h-[200px] h-[175px] rounded-full">
+                                <BarLoader size={15}></BarLoader>
+                            </div>
+                        ) : (
+                           <img className='lg:w-[175px] sm:w-[200px] w-[175px]' src={profile1} alt="" />
+                        )
+                    }
+
                         <h1>Pax Vobis</h1>
                         <p className='text-[18px]'>I am <b>Abraham Gregorius</b>, a CS student based in Jakarta, Indonesia. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>. I have a strong commitment to continuous learning, and I approach projects with professionalism, emphasizing teamwork and open communication.</p>
                         <p className='text-[18px]'>I'm eager to connect with fellow professionals, learn from experienced peers, and collaborate on impactful digital ventures.</p>
