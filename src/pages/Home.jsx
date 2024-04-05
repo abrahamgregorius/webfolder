@@ -27,7 +27,7 @@ function Home() {
                     <div className="heading">
                     {
                         loading ? (
-                            <div className="bg-white flex justify-center items-center lg:w-[175px] sm:w-[200px] w-[175px] lg:h-[175px] sm:h-[200px] h-[175px] rounded-full">
+                            <div className="bg-slate-300 flex justify-center items-center lg:w-[175px] sm:w-[200px] w-[175px] lg:h-[175px] sm:h-[200px] h-[175px] rounded-full">
                                 <BarLoader size={15}></BarLoader>
                             </div>
                         ) : (
