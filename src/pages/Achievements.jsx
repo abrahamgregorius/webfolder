@@ -10,7 +10,7 @@ function Achievements() {
     return(
         <div className='text-white container mx-auto my-0 p-4 w-full max-w-[840px]'>
             <Navbar></Navbar>
-            <Hero title={"Achievements"} description={"some of my accolades"}></Hero>
+            <Hero title={"Achievements"} description={"highlights of my personal achievements"}></Hero>
             <div className="content">
                 <ul className='text-center flex flex-col gap-3 font-mono'>
                     <li className='border-yellow-400 border-[3.5px] text-sm p-2 rounded'>Binus University Widia Scholarship 2024 Awardee (Fully-funded Undergraduate Scholarship)</li>
