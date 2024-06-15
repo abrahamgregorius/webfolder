@@ -26,6 +26,8 @@ function Projects() {
             <div className="container container-project">
                 <div className=" w-full mx-auto my-0 grid gap-5 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
                     {/* <Card title="" link="https://github.com/abrahamgregorius/" description="" src={""}></Card> */}
+                    <Card title="TenizenMart" description="All-in-one web app for school transactions" src={""}></Card>
+                    <Card title="JFLS Hub v3" description="Jabar Future Leaders Scholarship portal" src={""}></Card>
                     <Card title="SalesPoint" link="https://github.com/abrahamgregorius/salespoint" description="Compact web-based POS application" src={""}></Card>
                     <Card title="The Borobudur" link="https://github.com/Connexsoft-Team/the-borobudur" description="Interactive site about Borobudur Temple" src={""}></Card>
                     <Card title="Kryptonim" link="https://github.com/abrahamgregorius/kryptonim" description="Modern and minimalistic landing page" src={kryptonimimg}></Card>
