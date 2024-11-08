@@ -7,7 +7,7 @@ function Card({title, description, src, link, tech}) {
     return(
         <>
             <div className="card select-none shadow-xl hover:shadow-2xl transition duration-200 border-white border-2 min-[420px]:border rounded p-3">
-                <a target="_blank" href={link}>
+                <a target={link ? "_blank" : ""} href={link ? link : "#"}>
                     <div className="project-head">
                         <img className="h-[0px] w-full rounded object-top object-cover" src={src} alt="" />
                     </div>

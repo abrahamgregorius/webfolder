@@ -36,7 +36,7 @@ function Home() {
                     }
 
                         <h1>Pax Vobis</h1>
-                        <p className='text-[17px]'>I am <b>Abraham Gregorius</b>, a CS student and an Education Counselor at BINUS University. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>.</p>
+                        <p className='text-[17px]'>I am <b>Abraham Gregorius</b>, a Software Engineer based in Jakarta. My main areas of interest lie in <b>web development</b> and <b>backend engineering</b>.</p>
                         <p className='text-[17px]'>I have a  commitment to continuous learning, and I approach projects with professionalism, fostering teamwork through open communication.</p>
                         <p className='text-[17px]'>I'm eager to connect with fellow professionals, learn from experienced peers, <br/> and collaborate on impactful digital ventures.</p>
                     </div>
