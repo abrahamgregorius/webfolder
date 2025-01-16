@@ -6,7 +6,7 @@ import githubimg from '../assets/github.png'
 function Card({title, description, src, link, tech}) {
     return(
         <>
-            <div className="card select-none shadow-xl hover:shadow-2xl transition duration-200 border-white border-2 min-[420px]:border rounded p-3">
+            <div className="card select-none shadow-zinc-200 border-white border-2 min-[420px]:border rounded p-3">
                 <a target={link ? "_blank" : ""} href={link ? link : "#"}>
                     <div className="project-head">
                         <img className="h-[0px] w-full rounded object-top object-cover" src={src} alt="" />
