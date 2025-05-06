@@ -1,8 +1,14 @@
 function Footer() {
+
+    function getFullYear() {
+        const year = new Date().getFullYear()
+        return year
+    }
+
     return(
         <>
             <div className="footer">
-                Copyright &copy; 2023 - All rights reserved
+                Copyright &copy; {getFullYear()} - All rights reserved
             </div>
         </>
     )
