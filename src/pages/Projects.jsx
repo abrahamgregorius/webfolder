@@ -170,7 +170,7 @@ function Projects() {
             <Navbar></Navbar>
             <Hero
                 title={"Projects"}
-                description={"recent projects that i've been working on"}
+                description={"recent works"}
             ></Hero>
             <div className="container container-project">
                 <div className=" w-full mx-auto my-0 grid gap-5 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1">
