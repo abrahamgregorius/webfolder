@@ -13,6 +13,7 @@ function Achievements() {
             <Hero title={"Achievements"} description={"highlights of my personal achievements"}></Hero>
             <div className="content">
                 <ul className='text-center flex flex-col gap-3 font-mono'>
+                    <li className='border-yellow-400 border-[3.5px] text-sm p-2 rounded'>1st Place Winner of GDGoC BwAI Hackathon Chapter BION 2025</li>
                     <li className='border-yellow-400 border-[3.5px] text-sm p-2 rounded'>Binus University Widia Scholarship 2024 Awardee (Fully-funded Undergraduate Scholarship)</li>
                     <li className='border-yellow-400 border-[3.5px] text-sm p-2 rounded'>1st Place Winner of Universitas Nasional FTKI Confest Koding Cepat Competition 2024</li>
                     <li className='border-yellow-400 border-[3.5px] text-sm p-2 rounded'>Winner of Best Overall and Best Backend Category of Ayo Bisa Indonesia Competition 2023</li>
