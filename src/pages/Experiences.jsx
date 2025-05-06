@@ -96,7 +96,7 @@ export default function Experiences() {
                 <>
                   <div
                     key={index}
-                    className="bg-white text-left bg-opacity-5 backdrop-blur-lg p-6 rounded-2xl shadow-lg"
+                    className="bg-white bg-opacity-5 backdrop-blur-lg text-left p-6 rounded-2xl shadow-lg"
                   >
                     <h3 className={`text-3xl ${exp.isActive ? "text-blue-400" : "text-white"}`}>
                       {exp.title}
