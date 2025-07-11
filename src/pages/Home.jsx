@@ -3,7 +3,7 @@ import '../index.css'
 import '../css/style.css'
 import Section from '../components/Section'
 import Navbar from '../components/Navbar'
-import profile1 from '../assets/profiles-3.png'
+import profile1 from '../assets/profile.webp'
 import { useState } from 'react'
 import BarLoader from 'react-spinners/BarLoader'
 
@@ -31,7 +31,7 @@ function Home() {
                                 <BarLoader size={15}></BarLoader>
                             </div>
                         ) : (
-                           <img className='lg:w-[175px] sm:w-[200px] w-[175px]' src={profile1} alt="" />
+                           <img className='lg:w-[200px] sm:w-[200px] w-[175px] lg:h-[200px] sm:h-[200px] h-[175px] object-cover object-[50%_35%]' src={profile1} alt="" />
                         )
                     }
 
