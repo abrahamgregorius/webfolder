@@ -15,12 +15,14 @@ function Achievements() {
                 <ul className='text-center flex flex-col gap-3 font-mono'>
 
                     <h3 className="text-2xl font-bold">2025</h3>
+                    <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>BINUS University Star Tech Scholarship 2025 Awardee</li>
+                    <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>Top 6 of Compsphere Hackathon 2025 by President University</li>
                     <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>1st Place Winner of GDGoC BwAI Hackathon Chapter BION 2025</li>
                     <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>BINUS University Computer Science S-Class Member (Excellence Class Program)</li>
                     <li className='bg-zinc-700 bg-opacity-20 backdrop-blur-lg text-sm p-2 rounded'>Mentor of Gold Medalist of Lomba Kompetensi Siswa Nasional 2025 (Web Technologies)</li>
                     <li className='bg-zinc-700 bg-opacity-20 backdrop-blur-lg text-sm p-2 rounded'>Mentor of 1st Place Winner of Lomba Kompetensi Siswa Nasional 2025 (Web Technologies)</li>
                     <h3 className="text-2xl font-bold">2024</h3>
-                    <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>Binus University Widia Scholarship 2024 Awardee (Fully-funded Undergraduate Scholarship)</li>
+                    <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>BINUS University Widia Scholarship 2024 Awardee (Fully-funded Undergraduate Scholarship)</li>
                     <li className='bg-white bg-opacity-5 backdrop-blur-lg text-sm p-2 rounded'>1st Place Winner of Universitas Nasional FTKI Confest Koding Cepat Competition 2024</li>
                     <li className='bg-zinc-700 bg-opacity-20 backdrop-blur-lg text-sm p-2 rounded'>Mentor of 5th Ranked of Lomba Kompetensi Siswa Nasional 2024 (Web Technologies)</li>
                     <li className='bg-zinc-700 bg-opacity-20 backdrop-blur-lg text-sm p-2 rounded'>Mentor of 2nd Place Winner of Lomba Kompetensi Siswa Wilayah Jakarta Timur 2 2024 (Web Technologies)</li>
